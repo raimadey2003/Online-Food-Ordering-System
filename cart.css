@@ -1,0 +1,106 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+	margin: 12%;
+	background-image: url('../images/cart.jpg') ;
+	background-size: cover ;
+	background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header Styling */
+h2, h3 {
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 28px;
+    color: #2c3e50;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
+}
+
+h3 {
+    font-size: 22px;
+    color: #3a3a3a;
+    margin: 15px 0;
+    padding-bottom: 3px;
+    border-bottom: 1px dashed #4CAF50;
+}
+
+/* Enhanced Paragraph Styling */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #3a3a3a;
+    margin: 8px 0;
+    background-color: rgba(242,242,242,0.5);
+}
+
+p strong {
+    font-size: 18px;
+    color: #2c3e50;
+    font-weight: bold;
+    
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #ff9900;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+table tr/* :nth-child(even) */ {
+    background-color: #f2f2f2;
+}
+
+table tr td {
+    border-bottom: 1px solid #ddd;
+}
+
+/* Summary Section */
+hr {
+    border: 1px solid #ddd;
+    margin: 10px 0;
+}
+
+/* Place Order Button */
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff9900;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+a:hover {
+    background-color: #45a049;
+}

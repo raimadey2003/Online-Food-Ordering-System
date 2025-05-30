@@ -1,0 +1,92 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+	margin: 12%;
+	background-image: url('../images/confirmorder.jpg') ;
+	background-size: cover ;
+	background-attachment: scroll;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header Styling */
+h2 {
+    font-size: 28px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #ff9900;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+table tr/* :nth-child(even) */ {
+    background-color: #f2f2f2;
+}
+
+/* Enhanced Text and Summary Styling */
+p {
+    font-size: 18px;
+    color: #333;
+    margin: 12px 0;
+    padding: 8px 10px;
+    line-height: 1.6;
+    text-shadow: 0.5px 0.5px #aaa;
+    background-color: #f5f5f5;
+    border-left: 4px solid #ff9900;
+    border-radius: 3px;
+}
+
+p strong {
+    font-size: 20px;
+    color: #2c3e50;
+    text-shadow: 0.5px 0.5px #bbb;
+}
+
+/* Enhanced Confirmation Message */
+p.confirmation {
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e7f5e6;
+    color: #2c7a2b;
+    border: 1px solid #4CAF50;
+    border-radius: 5px;
+    text-shadow: 0.5px 0.5px #bbb;
+    border-left: 6px solid #4CAF50;
+}
+
+/* Strong Text Styling in Summary */
+p strong {
+    font-size: 20px;
+    color: #2c3e50;
+    text-shadow: 0.5px 0.5px #bbb;
+}
